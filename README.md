@@ -1,15 +1,10 @@
 ## Problem 
-Implement factory design pattern using Pet as the factory interface. The interface implements two methods: makeSound() and play().
+Implement the composite design pattern using MenuComponent as the component interface.The interface implements two methods: getPrice() and print().
 
-Dog and Cat are concrete objects that implements Pet interface.
+MenuItem is a concrete leaf object that implements the MenuComponent interface.MenuCategory is a composite object that also implements MenuComponent and holds a list of MenuComponent children, allowing it to represent both simple sections and nested combos.
 
-PetRecord holds attributes such as petId, petName, and Pet.
-
-Clinic would be the client object.
-
-Refer to the UML Class Diagram
-
+RestoApp would be the client object.
 
 
 ## Class Diagram
-![image](https://github.com/JerryEsperanza/factoryPattern/assets/142370600/0506f134-a5f6-4d98-a817-cd6f7a8466c7)
+<img width="705" height="465" alt="image" src="https://github.com/user-attachments/assets/b5a8db73-0b65-41e7-bd11-aab1bda078c7" />
